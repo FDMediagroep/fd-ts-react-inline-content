@@ -13,7 +13,7 @@ export function BulletPoints(props: Props) {
         <>
             <GlobalStyle/>
             <div className={`inline-content bullet-points${props.align ? ` ${props.align}` : ' right'}${props.className ? ` ${props.className}` : ''}`}>
-                {props.bullets ? props.bullets.map((bullet) => <TypoGraphy textStyle='article-p-inline-bullet-points'><p>{bullet}</p></TypoGraphy>) : null}
+                {props.bullets ? props.bullets.map((bullet, idx) => <TypoGraphy key={idx} textStyle='article-p-inline-bullet-points'><p>{bullet}</p></TypoGraphy>) : null}
             </div>
         </>
     );

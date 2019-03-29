@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Stock should render negative correctly 1`] = `
+<a
+  className="company-quote"
+  data-exchange="XAMS"
+  data-isin="NL0011821202"
+  href="https://beurs.fd.nl/noteringen/11773/ing/koersen"
+  target="_blank"
+>
+  <span>
+    INGA
+  </span>
+  <span>
+    €
+    10.92
+  </span>
+  <span
+    className="drop"
+  >
+    
+    -1.90
+    %
+  </span>
+</a>
+`;
+
+exports[`Stock should render positive correctly 1`] = `
+<a
+  className="company-quote"
+  data-exchange="XAMS"
+  data-isin="NL0011821202"
+  href="https://beurs.fd.nl/noteringen/11773/ing/koersen"
+  target="_blank"
+>
+  <span>
+    INGA
+  </span>
+  <span>
+    €
+    10.92
+  </span>
+  <span
+    className="climb"
+  >
+    +
+    1.90
+    %
+  </span>
+</a>
+`;

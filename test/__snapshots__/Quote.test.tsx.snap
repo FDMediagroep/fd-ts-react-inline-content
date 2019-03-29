@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Quote should render align block correctly 1`] = `
+<figure
+  className="fd-typography article-inline-quote inline-content quote block"
+  textStyle="article-inline-quote"
+>
+  <blockquote>
+    ‘
+    Curabitur quis luctus est, vitae sodales enim
+    ’
+  </blockquote>
+  <figcaption>
+    • 
+    Willem Liu
+  </figcaption>
+</figure>
+`;
+
+exports[`Quote should render align right correctly 1`] = `
+<figure
+  className="fd-typography article-inline-quote inline-content quote right"
+  textStyle="article-inline-quote"
+>
+  <blockquote>
+    ‘
+    Curabitur quis luctus est, vitae sodales enim
+    ’
+  </blockquote>
+  <figcaption>
+    • 
+    Willem Liu
+  </figcaption>
+</figure>
+`;
+
+exports[`Quote should render align right correctly 2`] = `
+<figure
+  className="fd-typography article-inline-quote inline-content quote right"
+  textStyle="article-inline-quote"
+>
+  <blockquote>
+    ‘
+    Curabitur quis luctus est, vitae sodales enim
+    ’
+  </blockquote>
+  <figcaption>
+    • 
+    Willem Liu
+  </figcaption>
+</figure>
+`;

@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NumberFrame should render align block correctly 1`] = `
+<div
+  className="inline-content cyferkader block"
+>
+  <h3
+    className="fd-typography article-h-inline-number-frame"
+    textStyle="article-h-inline-number-frame"
+  >
+    140%
+  </h3>
+  <p
+    className="fd-typography article-p-inline-number-frame"
+    textStyle="article-p-inline-number-frame"
+  >
+    Curabitur quis luctus est, vitae sodales enim
+  </p>
+</div>
+`;
+
+exports[`NumberFrame should render align right correctly 1`] = `
+<div
+  className="inline-content cyferkader right"
+>
+  <h3
+    className="fd-typography article-h-inline-number-frame"
+    textStyle="article-h-inline-number-frame"
+  >
+    140%
+  </h3>
+  <p
+    className="fd-typography article-p-inline-number-frame"
+    textStyle="article-p-inline-number-frame"
+  >
+    Curabitur quis luctus est, vitae sodales enim
+  </p>
+</div>
+`;
+
+exports[`NumberFrame should render align right correctly 2`] = `
+<div
+  className="inline-content cyferkader right"
+>
+  <h3
+    className="fd-typography article-h-inline-number-frame"
+    textStyle="article-h-inline-number-frame"
+  >
+    140%
+  </h3>
+  <p
+    className="fd-typography article-p-inline-number-frame"
+    textStyle="article-p-inline-number-frame"
+  >
+    Curabitur quis luctus est, vitae sodales enim
+  </p>
+</div>
+`;

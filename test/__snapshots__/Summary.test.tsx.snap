@@ -1,0 +1,112 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Summary should render align block correctly 1`] = `
+<div
+  className="inline-content article-summary block"
+>
+  <h3
+    className="fd-typography article-h-inline outline"
+    textStyle="article-h-inline"
+  >
+    In het kort
+  </h3>
+  <p
+    className="fd-typography article-p-inline-summary"
+    textStyle="article-p-inline-summary"
+  >
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  </p>
+  <p
+    className="fd-typography article-p-inline-summary"
+    textStyle="article-p-inline-summary"
+  >
+    Vivamus varius sed quam vel aliquam.
+  </p>
+  <p
+    className="fd-typography article-p-inline-summary"
+    textStyle="article-p-inline-summary"
+  >
+    Ut eleifend porta arcu, a eleifend enim viverra sit amet.
+  </p>
+  <p
+    className="fd-typography article-p-inline-summary"
+    textStyle="article-p-inline-summary"
+  >
+    Quisque a commodo eros. Sed at mi consequat, lacinia eros sed, luctus velit.
+  </p>
+</div>
+`;
+
+exports[`Summary should render align right correctly 1`] = `
+<div
+  className="inline-content article-summary right"
+>
+  <h3
+    className="fd-typography article-h-inline outline"
+    textStyle="article-h-inline"
+  >
+    In het kort
+  </h3>
+  <p
+    className="fd-typography article-p-inline-summary"
+    textStyle="article-p-inline-summary"
+  >
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  </p>
+  <p
+    className="fd-typography article-p-inline-summary"
+    textStyle="article-p-inline-summary"
+  >
+    Vivamus varius sed quam vel aliquam.
+  </p>
+  <p
+    className="fd-typography article-p-inline-summary"
+    textStyle="article-p-inline-summary"
+  >
+    Ut eleifend porta arcu, a eleifend enim viverra sit amet.
+  </p>
+  <p
+    className="fd-typography article-p-inline-summary"
+    textStyle="article-p-inline-summary"
+  >
+    Quisque a commodo eros. Sed at mi consequat, lacinia eros sed, luctus velit.
+  </p>
+</div>
+`;
+
+exports[`Summary should render align right correctly 2`] = `
+<div
+  className="inline-content article-summary right"
+>
+  <h3
+    className="fd-typography article-h-inline outline"
+    textStyle="article-h-inline"
+  >
+    In het kort
+  </h3>
+  <p
+    className="fd-typography article-p-inline-summary"
+    textStyle="article-p-inline-summary"
+  >
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  </p>
+  <p
+    className="fd-typography article-p-inline-summary"
+    textStyle="article-p-inline-summary"
+  >
+    Vivamus varius sed quam vel aliquam.
+  </p>
+  <p
+    className="fd-typography article-p-inline-summary"
+    textStyle="article-p-inline-summary"
+  >
+    Ut eleifend porta arcu, a eleifend enim viverra sit amet.
+  </p>
+  <p
+    className="fd-typography article-p-inline-summary"
+    textStyle="article-p-inline-summary"
+  >
+    Quisque a commodo eros. Sed at mi consequat, lacinia eros sed, luctus velit.
+  </p>
+</div>
+`;

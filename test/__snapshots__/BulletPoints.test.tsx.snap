@@ -1,0 +1,94 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BulletPoints should render align block correctly 1`] = `
+<div
+  className="inline-content bullet-points block"
+>
+  <p
+    className="fd-typography article-p-inline-bullet-points"
+    textStyle="article-p-inline-bullet-points"
+  >
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  </p>
+  <p
+    className="fd-typography article-p-inline-bullet-points"
+    textStyle="article-p-inline-bullet-points"
+  >
+    Vivamus varius sed quam vel aliquam.
+  </p>
+  <p
+    className="fd-typography article-p-inline-bullet-points"
+    textStyle="article-p-inline-bullet-points"
+  >
+    Ut eleifend porta arcu, a eleifend enim viverra sit amet.
+  </p>
+  <p
+    className="fd-typography article-p-inline-bullet-points"
+    textStyle="article-p-inline-bullet-points"
+  >
+    Quisque a commodo eros. Sed at mi consequat, lacinia eros sed, luctus velit.
+  </p>
+</div>
+`;
+
+exports[`BulletPoints should render align right correctly 1`] = `
+<div
+  className="inline-content bullet-points right"
+>
+  <p
+    className="fd-typography article-p-inline-bullet-points"
+    textStyle="article-p-inline-bullet-points"
+  >
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  </p>
+  <p
+    className="fd-typography article-p-inline-bullet-points"
+    textStyle="article-p-inline-bullet-points"
+  >
+    Vivamus varius sed quam vel aliquam.
+  </p>
+  <p
+    className="fd-typography article-p-inline-bullet-points"
+    textStyle="article-p-inline-bullet-points"
+  >
+    Ut eleifend porta arcu, a eleifend enim viverra sit amet.
+  </p>
+  <p
+    className="fd-typography article-p-inline-bullet-points"
+    textStyle="article-p-inline-bullet-points"
+  >
+    Quisque a commodo eros. Sed at mi consequat, lacinia eros sed, luctus velit.
+  </p>
+</div>
+`;
+
+exports[`BulletPoints should render align right correctly 2`] = `
+<div
+  className="inline-content bullet-points right"
+>
+  <p
+    className="fd-typography article-p-inline-bullet-points"
+    textStyle="article-p-inline-bullet-points"
+  >
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  </p>
+  <p
+    className="fd-typography article-p-inline-bullet-points"
+    textStyle="article-p-inline-bullet-points"
+  >
+    Vivamus varius sed quam vel aliquam.
+  </p>
+  <p
+    className="fd-typography article-p-inline-bullet-points"
+    textStyle="article-p-inline-bullet-points"
+  >
+    Ut eleifend porta arcu, a eleifend enim viverra sit amet.
+  </p>
+  <p
+    className="fd-typography article-p-inline-bullet-points"
+    textStyle="article-p-inline-bullet-points"
+  >
+    Quisque a commodo eros. Sed at mi consequat, lacinia eros sed, luctus velit.
+  </p>
+</div>
+`;

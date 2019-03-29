@@ -1,0 +1,94 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StackFrame should render align block correctly 1`] = `
+<div
+  className="inline-content stapelkader block"
+>
+  <h3
+    className="fd-typography article-h-inline-stack-frame"
+    textStyle="article-h-inline-stack-frame"
+  >
+    Vivamus varius sed quam vel aliquam.
+  </h3>
+  <p
+    className="fd-typography article-p-inline-stack-frame"
+    textStyle="article-p-inline-stack-frame"
+  >
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  </p>
+  <h3
+    className="fd-typography article-h-inline-stack-frame"
+    textStyle="article-h-inline-stack-frame"
+  >
+    Ut eleifend porta arcu, a eleifend enim viverra sit amet.
+  </h3>
+  <p
+    className="fd-typography article-p-inline-stack-frame"
+    textStyle="article-p-inline-stack-frame"
+  >
+    Quisque a commodo eros. Sed at mi consequat, lacinia eros sed, luctus velit.
+  </p>
+</div>
+`;
+
+exports[`StackFrame should render align right correctly 1`] = `
+<div
+  className="inline-content stapelkader right"
+>
+  <h3
+    className="fd-typography article-h-inline-stack-frame"
+    textStyle="article-h-inline-stack-frame"
+  >
+    Vivamus varius sed quam vel aliquam.
+  </h3>
+  <p
+    className="fd-typography article-p-inline-stack-frame"
+    textStyle="article-p-inline-stack-frame"
+  >
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  </p>
+  <h3
+    className="fd-typography article-h-inline-stack-frame"
+    textStyle="article-h-inline-stack-frame"
+  >
+    Ut eleifend porta arcu, a eleifend enim viverra sit amet.
+  </h3>
+  <p
+    className="fd-typography article-p-inline-stack-frame"
+    textStyle="article-p-inline-stack-frame"
+  >
+    Quisque a commodo eros. Sed at mi consequat, lacinia eros sed, luctus velit.
+  </p>
+</div>
+`;
+
+exports[`StackFrame should render align right correctly 2`] = `
+<div
+  className="inline-content stapelkader right"
+>
+  <h3
+    className="fd-typography article-h-inline-stack-frame"
+    textStyle="article-h-inline-stack-frame"
+  >
+    Vivamus varius sed quam vel aliquam.
+  </h3>
+  <p
+    className="fd-typography article-p-inline-stack-frame"
+    textStyle="article-p-inline-stack-frame"
+  >
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  </p>
+  <h3
+    className="fd-typography article-h-inline-stack-frame"
+    textStyle="article-h-inline-stack-frame"
+  >
+    Ut eleifend porta arcu, a eleifend enim viverra sit amet.
+  </h3>
+  <p
+    className="fd-typography article-p-inline-stack-frame"
+    textStyle="article-p-inline-stack-frame"
+  >
+    Quisque a commodo eros. Sed at mi consequat, lacinia eros sed, luctus velit.
+  </p>
+</div>
+`;

@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LinkBlock should render align block correctly 1`] = `
+<a
+  className="inline-content fd-card article related-link block"
+  href="https://fd.nl/ondernemen/1254849/douane-20-tot-30-meer-aangiftes-door-groei-in-webwinkelen"
+  target="_blank"
+>
+  <p
+    className="fd-typography article-p-inline-link-block"
+    textStyle="article-p-inline-link-block"
+  >
+    Lees ook
+  </p>
+  <h2
+    className="fd-typography article-h-inline-link-block"
+    textStyle="article-h-inline-link-block"
+  >
+    Curabitur quis luctus est, vitae sodales enim
+  </h2>
+  <i
+    className="icon-chevron-right"
+  />
+</a>
+`;
+
+exports[`LinkBlock should render align right correctly 1`] = `
+<a
+  className="inline-content fd-card article related-link right"
+  href="https://fd.nl/ondernemen/1254849/douane-20-tot-30-meer-aangiftes-door-groei-in-webwinkelen"
+  target="_blank"
+>
+  <p
+    className="fd-typography article-p-inline-link-block"
+    textStyle="article-p-inline-link-block"
+  >
+    Lees ook
+  </p>
+  <h2
+    className="fd-typography article-h-inline-link-block"
+    textStyle="article-h-inline-link-block"
+  >
+    Curabitur quis luctus est, vitae sodales enim
+  </h2>
+  <i
+    className="icon-chevron-right"
+  />
+</a>
+`;
+
+exports[`LinkBlock should render align right correctly 2`] = `
+<a
+  className="inline-content fd-card article related-link right"
+  href="https://fd.nl/ondernemen/1254849/douane-20-tot-30-meer-aangiftes-door-groei-in-webwinkelen"
+  target="_blank"
+>
+  <p
+    className="fd-typography article-p-inline-link-block"
+    textStyle="article-p-inline-link-block"
+  >
+    Lees ook
+  </p>
+  <h2
+    className="fd-typography article-h-inline-link-block"
+    textStyle="article-h-inline-link-block"
+  >
+    Curabitur quis luctus est, vitae sodales enim
+  </h2>
+  <i
+    className="icon-chevron-right"
+  />
+</a>
+`;
