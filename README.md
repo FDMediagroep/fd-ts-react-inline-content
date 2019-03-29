@@ -15,8 +15,4 @@ After the build succeeded you can open `dist/demo.html` with your webbrowser.
 * [Demo](http://static.fd.nl/react/inline-content/demo.html)
 
 # Usage
-```
-import {} from '@fdmg/fd-inline-content';
-...
-
-```
+Check [`demo.tsx`](demo/demo.tsx) for example code.
