@@ -1,6 +1,6 @@
 {
   "name": "@fdmg/fd-inline-content",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "FD-themed inline content",
   "types": "dist/InlineContent.d.ts",
   "main": "dist/inline-content.js",
