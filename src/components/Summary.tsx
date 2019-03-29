@@ -15,7 +15,7 @@ export function Summary(props: Props) {
             <GlobalStyle/>
             <div className={`inline-content article-summary${props.align ? ` ${props.align}` : ' right'}${props.className ? ` ${props.className}` : ''}`}>
                 <TypoGraphy textStyle='article-h-inline' className="outline"><h3>{props.title}</h3></TypoGraphy>
-                {props.bullets ? props.bullets.map((bullet) => <TypoGraphy textStyle='article-p-inline-summary'><p>{bullet}</p></TypoGraphy>) : null}
+                {props.bullets ? props.bullets.map((bullet, idx) => <TypoGraphy key={idx} textStyle='article-p-inline-summary'><p>{bullet}</p></TypoGraphy>) : null}
             </div>
         </>
     );

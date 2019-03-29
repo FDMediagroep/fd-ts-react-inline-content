@@ -43,7 +43,7 @@ const GlobalStyle = createGlobalStyle`
     color: #677381;
     font-size: 14px;
     line-height: 1.5;
-    
+
     &:empty:before {
         vertical-align: middle
     }
@@ -60,7 +60,7 @@ const GlobalStyle = createGlobalStyle`
     span:first-child {
         margin: 0;
     }
-    
+
     span:first-child:after {
         content: ":"
     }
@@ -84,7 +84,7 @@ const GlobalStyle = createGlobalStyle`
 .full-width {
     .company-quote {
         color: #f05031;
-    }    
+    }
 }
 `;
 
