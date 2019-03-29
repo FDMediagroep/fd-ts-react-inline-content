@@ -23,6 +23,7 @@ export function Summary(props: Props) {
 
 const GlobalStyle = createGlobalStyle`
 .inline-content.article-summary {
+    clear: both;
     display: block;
     width: auto;
     margin: 40px auto;

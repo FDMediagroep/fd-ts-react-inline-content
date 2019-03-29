@@ -37,6 +37,7 @@ export function Stock(props: Props) {
 
 const GlobalStyle = createGlobalStyle`
 .company-quote {
+    clear: both;
     text-decoration: none;
     font-family: 'ArnhemProBlond', serif;
     color: #677381;

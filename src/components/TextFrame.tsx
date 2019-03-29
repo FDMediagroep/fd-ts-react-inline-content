@@ -28,6 +28,7 @@ export function TextFrame(props: Props) {
 
 const GlobalStyle = createGlobalStyle`
 .inline-content.text-frame {
+    clear: both;
     display: block;
     width: auto;
     color: #191919;

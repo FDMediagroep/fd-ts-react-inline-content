@@ -9,14 +9,14 @@ export interface Props {
     quote: string;
 }
 
-export function QuoteFrame(props: Props) {
+export function Quote(props: Props) {
     return (
         <>
             <GlobalStyle/>
             <TypoGraphy textStyle={"article-inline-quote"} className={`inline-content quote${props.align ? ` ${props.align}` : ' right'}${props.className ? ` ${props.className}` : ''}`}>
                 <figure>
-                    <blockquote>{props.quote}</blockquote>
-                    <figcaption>{props.figcaption}</figcaption>
+                    <blockquote>‘{props.quote}’</blockquote>
+                    <figcaption>• {props.figcaption}</figcaption>
                 </figure>
             </TypoGraphy>
         </>
@@ -25,6 +25,7 @@ export function QuoteFrame(props: Props) {
 
 const GlobalStyle = createGlobalStyle`
 .inline-content.quote {
+    clear: both;
     display: block;
     width: auto;
     color: #49a4a2;

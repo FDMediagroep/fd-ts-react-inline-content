@@ -23,6 +23,7 @@ export function NumberFrame(props: Props) {
 
 const GlobalStyle = createGlobalStyle`
 .inline-content.cyferkader {
+    clear: both;
     display: block;
     width: auto;
     color: #49a4a2;

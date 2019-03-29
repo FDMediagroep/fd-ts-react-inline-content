@@ -31,6 +31,7 @@ export function StackFrame(props: Props) {
 
 const GlobalStyle = createGlobalStyle`
 .inline-content.stapelkader {
+    clear: both;
     display: block;
     width: auto;
     border-left: 8px solid #4d494c;

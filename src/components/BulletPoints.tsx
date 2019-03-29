@@ -21,6 +21,7 @@ export function BulletPoints(props: Props) {
 
 const GlobalStyle = createGlobalStyle`
 .inline-content.bullet-points {
+    clear: both;
     display: block;
     width: auto;
     margin: 40px auto;

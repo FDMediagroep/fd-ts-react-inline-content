@@ -15,9 +15,9 @@ export function LinkBlock(props: Props) {
     return (
         <>
             <GlobalStyle/>
-            <a target="_blank" className={`inline-content fd-card article related-link${props.align ? ` ${props.align}` : ' right'}${props.className ? ` ${props.className}` : ''}`} href="https://dev.fd.nl/economie-politiek/1241758/honderden-ambtenaren-vragen-blok-maak-ons-departement-diverser">
-                <TypoGraphy textStyle='article-p-inline-link-block'><p>Lees ook</p></TypoGraphy>
-                <TypoGraphy textStyle='article-h-inline-link-block'><h2>Honderden ambtenaren vragen Blok: maak ons departement diverser</h2></TypoGraphy>
+            <a target="_blank" className={`inline-content fd-card article related-link${props.align ? ` ${props.align}` : ' right'}${props.className ? ` ${props.className}` : ''}`} href={props.url}>
+                <TypoGraphy textStyle='article-p-inline-link-block'><p>{props.title}</p></TypoGraphy>
+                <TypoGraphy textStyle='article-h-inline-link-block'><h2>{props.description}</h2></TypoGraphy>
                 <i className="icon-chevron-right"/>
             </a>
         </>
@@ -28,8 +28,8 @@ const GlobalStyle = createGlobalStyle`
 ${(getAllCardStyles(['article']) as any).globalStyle.rules}
 
 .inline-content.related-link {
-    text-decoration: none;
     clear: both;
+    text-decoration: none;
     padding: 12px 40px 12px 15px;
     display: block;
     width: auto;
