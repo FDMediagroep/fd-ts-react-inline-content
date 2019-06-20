@@ -53,11 +53,11 @@ const styles = css`
 }
 `;
 
-const GlobalStyle = createGlobalStyle`${styles}`;
-
 export const BulletPointsStyle = css`
 ${getAllTextStyles([
     'article-p-inline-bullet-points'
 ])}
 ${styles}
 `;
+
+const GlobalStyle = createGlobalStyle`${BulletPointsStyle}`;

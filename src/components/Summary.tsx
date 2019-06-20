@@ -69,8 +69,6 @@ const styles = css`
 }
 `;
 
-const GlobalStyle = createGlobalStyle`${styles}`;
-
 export const SummaryStyle = css`
 ${getAllTextStyles([
     'article-h-inline',
@@ -78,3 +76,5 @@ ${getAllTextStyles([
 ])}
 ${styles}
 `;
+
+const GlobalStyle = createGlobalStyle`${SummaryStyle}`;

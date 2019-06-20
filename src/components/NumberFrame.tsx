@@ -47,8 +47,6 @@ const styles = css`
 }
 `;
 
-const GlobalStyle = createGlobalStyle`${styles}`;
-
 export const NumberFrameStyle = css`
 ${getAllTextStyles([
     'article-h-inline-number-frame',
@@ -56,3 +54,5 @@ ${getAllTextStyles([
 ])}
 ${styles}
 `;
+
+const GlobalStyle = createGlobalStyle`${NumberFrameStyle}`;

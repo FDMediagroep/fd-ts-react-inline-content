@@ -97,11 +97,11 @@ const styles = css`
 }
 `;
 
-const GlobalStyle = createGlobalStyle`${styles}`;
-
 export const TextFrameStyle = css`
 ${getAllTextStyles([
     'article-p-inline-text-frame'
 ])}
 ${styles}
 `;
+
+const GlobalStyle = createGlobalStyle`${TextFrameStyle}`;

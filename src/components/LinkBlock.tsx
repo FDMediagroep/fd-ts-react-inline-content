@@ -63,8 +63,6 @@ ${getAllCardStyles(['article'])}
 }
 `;
 
-const GlobalStyle = createGlobalStyle`${styles}`;
-
 export const LinkBlockStyle = css`
 ${getAllTextStyles([
     'article-h-inline-link-block',
@@ -72,3 +70,5 @@ ${getAllTextStyles([
 ])}
 ${styles}
 `;
+
+const GlobalStyle = createGlobalStyle`${LinkBlockStyle}`;

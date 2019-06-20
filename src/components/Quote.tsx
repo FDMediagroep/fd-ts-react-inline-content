@@ -49,11 +49,11 @@ const styles = css`
 }
 `;
 
-const GlobalStyle = createGlobalStyle`${styles}`;
-
 export const QuoteStyle = css`
 ${getAllTextStyles([
     'article-inline-quote'
 ])}
 ${styles}
 `;
+
+const GlobalStyle = createGlobalStyle`${QuoteStyle}`;

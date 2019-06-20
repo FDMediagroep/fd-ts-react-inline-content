@@ -59,8 +59,6 @@ const styles = css`
 }
 `;
 
-const GlobalStyle = createGlobalStyle`${styles}`;
-
 export const StackFrameStyle = css`
 ${getAllTextStyles([
     'article-h-inline-stack-frame',
@@ -68,3 +66,5 @@ ${getAllTextStyles([
 ])}
 ${styles}
 `;
+
+const GlobalStyle = createGlobalStyle`${StackFrameStyle}`;
