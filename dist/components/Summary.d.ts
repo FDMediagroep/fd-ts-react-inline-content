@@ -5,4 +5,4 @@ export interface Props {
     title: string;
 }
 export declare function Summary(props: Props): JSX.Element;
-export declare const SummaryStyle: import("styled-components").GlobalStyleComponent<{}, import("styled-components").DefaultTheme>;
+export declare const SummaryStyle: import("styled-components").FlattenSimpleInterpolation;

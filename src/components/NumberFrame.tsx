@@ -1,6 +1,6 @@
 import React from 'react';
 import TypoGraphy, { getAllTextStyles } from '@fdmg/fd-typography';
-import { createGlobalStyle } from 'styled-components';
+import { createGlobalStyle, css } from 'styled-components';
 
 export interface Props {
     align?: 'block' | 'right';
@@ -21,7 +21,7 @@ export function NumberFrame(props: Props) {
     );
 }
 
-const GlobalStyle = createGlobalStyle`
+const styles = css`
 .inline-content.cyferkader {
     clear: both;
     display: block;
@@ -47,10 +47,12 @@ const GlobalStyle = createGlobalStyle`
 }
 `;
 
-export const NumberFrameStyle = createGlobalStyle`
-${(GlobalStyle as any).globalStyle.rules}
-${(getAllTextStyles([
+const GlobalStyle = createGlobalStyle`${styles}`;
+
+export const NumberFrameStyle = css`
+${getAllTextStyles([
     'article-h-inline-number-frame',
     'article-p-inline-number-frame'
-]) as any).globalStyle.rules}
+])}
+${styles}
 `;

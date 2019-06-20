@@ -1,5 +1,5 @@
 import React from 'react';
-import { createGlobalStyle } from 'styled-components';
+import { createGlobalStyle, css } from 'styled-components';
 
 export interface Props {
     className?: string;
@@ -25,7 +25,7 @@ export function Stock(props: Props) {
     const localeStringOptions = {useGrouping: false, minimumFractionDigits: 2};
     return (
         <>
-            <StockStyle/>
+            <GlobalStyle/>
             <a data-isin={props.isin} data-exchange={props.exchange} className={`company-quote${props.className ? ` ${props.className}` : ''}`} target="_blank" href={props.url}>
                 <span>{props.name}</span>
                 <span>€{props.price.toLocaleString(locale, localeStringOptions)}</span>
@@ -35,7 +35,7 @@ export function Stock(props: Props) {
     );
 }
 
-const GlobalStyle = createGlobalStyle`
+const styles = css`
 .company-quote {
     clear: both;
     text-decoration: none;
@@ -88,6 +88,6 @@ const GlobalStyle = createGlobalStyle`
 }
 `;
 
-export const StockStyle = createGlobalStyle`
-${(GlobalStyle as any).globalStyle.rules}
-`;
+const GlobalStyle = createGlobalStyle`${styles}`;
+
+export { styles as StockStyle };

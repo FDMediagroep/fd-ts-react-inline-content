@@ -9,4 +9,5 @@ export interface Props {
     url: string;
 }
 export declare function Stock(props: Props): JSX.Element;
-export declare const StockStyle: import("styled-components").GlobalStyleComponent<{}, import("styled-components").DefaultTheme>;
+declare const styles: import("styled-components").FlattenSimpleInterpolation;
+export { styles as StockStyle };

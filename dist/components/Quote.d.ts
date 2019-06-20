@@ -5,4 +5,4 @@ export interface Props {
     quote: string;
 }
 export declare function Quote(props: Props): JSX.Element;
-export declare const QuoteStyle: import("styled-components").GlobalStyleComponent<{}, import("styled-components").DefaultTheme>;
+export declare const QuoteStyle: import("styled-components").FlattenSimpleInterpolation;

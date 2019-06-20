@@ -4,4 +4,4 @@ export interface Props {
     bullets: string[];
 }
 export declare function BulletPoints(props: Props): JSX.Element;
-export declare const BulletPointsStyle: import("styled-components").GlobalStyleComponent<{}, import("styled-components").DefaultTheme>;
+export declare const BulletPointsStyle: import("styled-components").FlattenSimpleInterpolation;

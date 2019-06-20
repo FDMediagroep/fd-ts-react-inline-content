@@ -1,6 +1,6 @@
 import React from 'react';
 import TypoGraphy, { getAllTextStyles } from '@fdmg/fd-typography';
-import { createGlobalStyle } from 'styled-components';
+import { createGlobalStyle, css } from 'styled-components';
 import { getAllCardStyles } from '@fdmg/fd-card';
 
 export interface Props {
@@ -24,9 +24,8 @@ export function LinkBlock(props: Props) {
     );
 }
 
-const GlobalStyle = createGlobalStyle`
-${(getAllCardStyles(['article']) as any).globalStyle.rules}
-
+const styles = css`
+${getAllCardStyles(['article'])}
 .inline-content.related-link {
     clear: both;
     text-decoration: none;
@@ -64,10 +63,12 @@ ${(getAllCardStyles(['article']) as any).globalStyle.rules}
 }
 `;
 
-export const LinkBlockStyle = createGlobalStyle`
-${(GlobalStyle as any).globalStyle.rules}
-${(getAllTextStyles([
+const GlobalStyle = createGlobalStyle`${styles}`;
+
+export const LinkBlockStyle = css`
+${getAllTextStyles([
     'article-h-inline-link-block',
     'article-p-inline-link-block'
-]) as any).globalStyle.rules}
+])}
+${styles}
 `;

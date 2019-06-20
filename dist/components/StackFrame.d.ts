@@ -8,4 +8,4 @@ export interface Props {
     stackFrames?: StackFrameDataType[];
 }
 export declare function StackFrame(props: Props): JSX.Element;
-export declare const StackFrameStyle: import("styled-components").GlobalStyleComponent<{}, import("styled-components").DefaultTheme>;
+export declare const StackFrameStyle: import("styled-components").FlattenSimpleInterpolation;

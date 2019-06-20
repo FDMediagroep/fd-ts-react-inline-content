@@ -1,6 +1,6 @@
 import React from 'react';
 import TypoGraphy, { getAllTextStyles } from '@fdmg/fd-typography';
-import { createGlobalStyle } from 'styled-components';
+import { createGlobalStyle, css } from 'styled-components';
 
 export interface StackFrameDataType {
     title: string;
@@ -29,7 +29,7 @@ export function StackFrame(props: Props) {
     );
 }
 
-const GlobalStyle = createGlobalStyle`
+const styles = css`
 .inline-content.stapelkader {
     clear: both;
     display: block;
@@ -59,10 +59,12 @@ const GlobalStyle = createGlobalStyle`
 }
 `;
 
-export const StackFrameStyle = createGlobalStyle`
-${(GlobalStyle as any).globalStyle.rules}
-${(getAllTextStyles([
+const GlobalStyle = createGlobalStyle`${styles}`;
+
+export const StackFrameStyle = css`
+${getAllTextStyles([
     'article-h-inline-stack-frame',
     'article-p-inline-stack-frame'
-]) as any).globalStyle.rules}
+])}
+${styles}
 `;

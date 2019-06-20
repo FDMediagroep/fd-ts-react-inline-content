@@ -1,6 +1,6 @@
 import React from 'react';
 import TypoGraphy, { getAllTextStyles } from '@fdmg/fd-typography';
-import { createGlobalStyle } from 'styled-components';
+import { createGlobalStyle, css } from 'styled-components';
 
 export interface Props {
     align?: 'block' | 'right';
@@ -19,7 +19,7 @@ export function BulletPoints(props: Props) {
     );
 }
 
-const GlobalStyle = createGlobalStyle`
+const styles = css`
 .inline-content.bullet-points {
     clear: both;
     display: block;
@@ -53,9 +53,11 @@ const GlobalStyle = createGlobalStyle`
 }
 `;
 
-export const BulletPointsStyle = createGlobalStyle`
-${(GlobalStyle as any).globalStyle.rules}
-${(getAllTextStyles([
+const GlobalStyle = createGlobalStyle`${styles}`;
+
+export const BulletPointsStyle = css`
+${getAllTextStyles([
     'article-p-inline-bullet-points'
-]) as any).globalStyle.rules}
+])}
+${styles}
 `;

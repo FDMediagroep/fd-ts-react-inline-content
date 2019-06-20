@@ -9,4 +9,4 @@ export interface Props {
     paragraphs?: string[];
 }
 export declare function TextFrame(props: Props): JSX.Element;
-export declare const TextFrameStyle: import("styled-components").GlobalStyleComponent<{}, import("styled-components").DefaultTheme>;
+export declare const TextFrameStyle: import("styled-components").FlattenSimpleInterpolation;

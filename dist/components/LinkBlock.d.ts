@@ -6,4 +6,4 @@ export interface Props {
     url: string;
 }
 export declare function LinkBlock(props: Props): JSX.Element;
-export declare const LinkBlockStyle: import("styled-components").GlobalStyleComponent<{}, import("styled-components").DefaultTheme>;
+export declare const LinkBlockStyle: import("styled-components").FlattenSimpleInterpolation;

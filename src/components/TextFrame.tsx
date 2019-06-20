@@ -1,6 +1,6 @@
 import React from 'react';
 import TypoGraphy, { getAllTextStyles } from '@fdmg/fd-typography';
-import { createGlobalStyle } from 'styled-components';
+import { createGlobalStyle, css } from 'styled-components';
 import { ImageType, TeaserFigure,  } from '@fdmg/fd-teaser';
 import { SourceSetType } from '@fdmg/fd-teaser/dist/TeaserFigure';
 
@@ -26,7 +26,7 @@ export function TextFrame(props: Props) {
     );
 }
 
-const GlobalStyle = createGlobalStyle`
+const styles = css`
 .inline-content.text-frame {
     clear: both;
     display: block;
@@ -97,9 +97,11 @@ const GlobalStyle = createGlobalStyle`
 }
 `;
 
-export const TextFrameStyle = createGlobalStyle`
-${(GlobalStyle as any).globalStyle.rules}
-${(getAllTextStyles([
+const GlobalStyle = createGlobalStyle`${styles}`;
+
+export const TextFrameStyle = css`
+${getAllTextStyles([
     'article-p-inline-text-frame'
-]) as any).globalStyle.rules}
+])}
+${styles}
 `;

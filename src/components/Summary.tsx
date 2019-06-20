@@ -1,6 +1,6 @@
 import React from 'react';
 import TypoGraphy, { getAllTextStyles } from '@fdmg/fd-typography';
-import { createGlobalStyle } from 'styled-components';
+import { createGlobalStyle, css } from 'styled-components';
 
 export interface Props {
     align?: 'block' | 'right';
@@ -21,7 +21,7 @@ export function Summary(props: Props) {
     );
 }
 
-const GlobalStyle = createGlobalStyle`
+const styles = css`
 .inline-content.article-summary {
     clear: both;
     display: block;
@@ -69,10 +69,12 @@ const GlobalStyle = createGlobalStyle`
 }
 `;
 
-export const SummaryStyle = createGlobalStyle`
-${(GlobalStyle as any).globalStyle.rules}
-${(getAllTextStyles([
+const GlobalStyle = createGlobalStyle`${styles}`;
+
+export const SummaryStyle = css`
+${getAllTextStyles([
     'article-h-inline',
     'article-p-inline-summary'
-]) as any).globalStyle.rules}
+])}
+${styles}
 `;
